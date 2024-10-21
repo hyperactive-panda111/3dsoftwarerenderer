@@ -1,0 +1,3 @@
+C:/Users/Dora Darkwa/Desktop/3drenderer/src/build/CMakeFiles/renderer.dir
+C:/Users/Dora Darkwa/Desktop/3drenderer/src/build/CMakeFiles/edit_cache.dir
+C:/Users/Dora Darkwa/Desktop/3drenderer/src/build/CMakeFiles/rebuild_cache.dir

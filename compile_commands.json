@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "",
+    "file": ".",
+    "output": "cmake_object_order_depends_target_renderer"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe  -I\"C:/Users/Dora Darkwa/Desktop/3drenderer/src/include\" -I\"C:/Users/Dora Darkwa/Desktop/3drenderer/src\" -std=gnu99 -MD -MT CMakeFiles/renderer.dir/src/display.c.obj -MF CMakeFiles\\renderer.dir\\src\\display.c.obj.d -o CMakeFiles/renderer.dir/src/display.c.obj -c \"C:/Users/Dora Darkwa/Desktop/3drenderer/src/display.c\"",
+    "file": "C:/Users/Dora Darkwa/Desktop/3drenderer/src/display.c",
+    "output": "CMakeFiles/renderer.dir/src/display.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe  -I\"C:/Users/Dora Darkwa/Desktop/3drenderer/src/include\" -I\"C:/Users/Dora Darkwa/Desktop/3drenderer/src\" -std=gnu99 -MD -MT CMakeFiles/renderer.dir/src/main.c.obj -MF CMakeFiles\\renderer.dir\\src\\main.c.obj.d -o CMakeFiles/renderer.dir/src/main.c.obj -c \"C:/Users/Dora Darkwa/Desktop/3drenderer/src/main.c\"",
+    "file": "C:/Users/Dora Darkwa/Desktop/3drenderer/src/main.c",
+    "output": "CMakeFiles/renderer.dir/src/main.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe  -I\"C:/Users/Dora Darkwa/Desktop/3drenderer/src/include\" -I\"C:/Users/Dora Darkwa/Desktop/3drenderer/src\" -std=gnu99 -MD -MT CMakeFiles/renderer.dir/src/mesh.c.obj -MF CMakeFiles\\renderer.dir\\src\\mesh.c.obj.d -o CMakeFiles/renderer.dir/src/mesh.c.obj -c \"C:/Users/Dora Darkwa/Desktop/3drenderer/src/mesh.c\"",
+    "file": "C:/Users/Dora Darkwa/Desktop/3drenderer/src/mesh.c",
+    "output": "CMakeFiles/renderer.dir/src/mesh.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "C:\\WINDOWS\\system32\\cmd.exe /C \"cd . && C:\\msys64\\ucrt64\\bin\\cc.exe   CMakeFiles/renderer.dir/src/display.c.obj CMakeFiles/renderer.dir/src/main.c.obj CMakeFiles/renderer.dir/src/mesh.c.obj -o build\\bin\\renderer.exe -Wl,--out-implib,librenderer.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /src/lib/SDL2.dll  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd .\"",
+    "file": "CMakeFiles/renderer.dir/src/display.c.obj",
+    "output": "build/bin/renderer.exe"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "",
+    "file": "CMakeFiles/edit_cache.util",
+    "output": "edit_cache"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "",
+    "file": "CMakeFiles/rebuild_cache.util",
+    "output": "rebuild_cache"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "",
+    "file": "build/bin/renderer.exe",
+    "output": "renderer"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "",
+    "file": "build/bin/renderer.exe",
+    "output": "renderer.exe"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "",
+    "file": "build/bin/renderer.exe",
+    "output": "all"
+  },
+  {
+    "directory": "C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build",
+    "command": "C:\\msys64\\mingw64\\bin\\cmake.exe --regenerate-during-build -S\"C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\" -B\"C:\\Users\\Dora Darkwa\\Desktop\\3drenderer\\build\"",
+    "file": "C:/Users/Dora Darkwa/Desktop/3drenderer/CMakeLists.txt",
+    "output": "build.ninja"
+  }
+]
