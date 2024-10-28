@@ -69,8 +69,8 @@ void clear_color_buffer(uint32_t color) {
 }
 
 void draw_grid(void) {
-	for (int y = 0; y < window_height; y++)
-		for (int x = 0; x < window_width; x++) {
+	for (int y = 0; y < window_height; y += 10)
+		for (int x = 0; x < window_width; x += 10) {
 			if (y % 100 == 0) 
 				color_buffer[(window_width * y) + x] = 0xFFFFFF00;
 			if (x % 100 == 0)
@@ -78,13 +78,24 @@ void draw_grid(void) {
 		}
 }
 
+void draw_pixel(int x, int y, uint32_t color)
+{
+    if (x >= 0 && x < window_width && y >= 0 && y < window_height) {
+        int pixel_height = y * window_width;
+        color_buffer[(pixel_height + x)] = color;
+    }
+}
+
 void draw_rectangle(int height, int width, int x, int y, uint32_t color) {
 	int viewport_height = window_width * y;
 		for (int i = 0; i < height; i++)
 			for (int j = 0; j < width; j++) {
-				color_buffer[((viewport_height + (i * window_width)) + x) + j] = color;
+				//color_buffer[((viewport_height + (i * window_width)) + x) + j] = color;
+                draw_pixel(x + j, y + i, color);
 			}
 }
+
+
 
 
 void destroy_window(void) {
@@ -94,10 +105,5 @@ void destroy_window(void) {
 	SDL_Quit();
 }
 
-void draw_pixel(int x, int y, uint32_t color)
-{
-    int pixel_height = y * window_width;
-    color_buffer[(pixel_height + x)] = color;
-}
 
 
