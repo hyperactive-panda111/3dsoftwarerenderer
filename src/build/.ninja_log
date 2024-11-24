@@ -1,7 +1,0 @@
-# ninja log v6
-22	709	7510923616492533	CMakeFiles/renderer.dir/mesh.c.obj	3c9888be1c990a74
-15	21211	7510923616392536	CMakeFiles/renderer.dir/main.c.obj	fa089d044e0ad943
-6	21219	7510923616342531	CMakeFiles/renderer.dir/display.c.obj	518b6c96fde8e2f4
-87	620	7510928443874916	CMakeFiles/renderer.dir/mesh.c.obj	3c9888be1c990a74
-79	10413	7510928443774817	CMakeFiles/renderer.dir/main.c.obj	fa089d044e0ad943
-70	10442	7510928443734752	CMakeFiles/renderer.dir/display.c.obj	518b6c96fde8e2f4
