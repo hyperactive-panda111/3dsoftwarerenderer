@@ -125,6 +125,12 @@ The renderer simulates a 3D graphics pipeline using only CPU-based calculations,
 - **OBJ Loader**: Reads vertices, normals, texture coordinates, and face data to construct 3D models
 - **PNG Decoder**: Loads texture images via a custom `upng` module
 
+## Future Enhancements
+
+- Add support for more advanced lighting techniques (e.g., Phong shading)
+- Implement real-time rendering optimizations
+- Introduce shader-like features for better material handling
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
