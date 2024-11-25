@@ -54,8 +54,40 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 - Place your OBJ files and texture PNGs in the `models` directory
 - Run the application with the path to the OBJ file
-- Use keyboard inputs (if implemented) to control the camera or interact with the scene
 
+## Camera Controls
+
+The renderer allows interactive camera movement and adjustments through keyboard inputs. Below is a list of supported controls:
+
+### Camera Rotation
+
+- `W` - Rotate the camera upward (increase pitch)
+- `S` - Rotate the camera downward (decrease pitch)
+- `Right Arrow` - Rotate the camera clockwise (increase yaw)
+- `Left Arrow` - Rotate the camera counterclockwise (decrease yaw)
+
+### Camera Movement
+
+- `Up Arrow` - Move the camera forward in the current direction
+- `Down Arrow` - Move the camera backward in the current direction
+
+### Rendering Modes
+
+- `1` - Wireframe with vertex points
+- `2` - Wireframe only
+- `3` - Solid triangle fill
+- `4` - Solid triangle fill with wireframe overlay
+- `5` - Textured rendering
+- `6` - Textured rendering with wireframe overlay
+
+### Culling Methods
+
+- `C` - Enable backface culling (default)
+- `X` - Disable culling
+
+### General
+
+- `ESC` - Exit the program
 ## Project Structure
 
 ```
