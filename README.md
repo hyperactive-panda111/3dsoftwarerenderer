@@ -39,10 +39,6 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 2. **Install dependencies**:
    - Ensure you have a C compiler (e.g., GCC)
-   - Install libpng for handling PNG files:
-     ```bash
-     sudo apt-get install libpng-dev
-     ```
 
 3. **Build the project**:
    ```bash
@@ -51,7 +47,7 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 4. **Run the renderer**:
    ```bash
-   ./renderer path/to/your/model.obj
+   make run
    ```
 
 ## Usage
@@ -129,23 +125,6 @@ The renderer simulates a 3D graphics pipeline using only CPU-based calculations,
 - **OBJ Loader**: Reads vertices, normals, texture coordinates, and face data to construct 3D models
 - **PNG Decoder**: Loads texture images via a custom `upng` module
 
-## Installation
-
-### Install Dependencies
-
-1. Ensure you have a C compiler (e.g., GCC)
-
-### Build and Run
-
-1. Build the project:
-   ```bash
-   make
-   ```
-
-2. Run the renderer:
-   ```bash
-   make run
-   ```
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
