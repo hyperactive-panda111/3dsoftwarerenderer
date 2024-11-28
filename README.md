@@ -27,6 +27,7 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 - [How It Works](#how-it-works)
 - [Known Issues](#known-issues)
 - [Future Enhancements](#future-enhancements)
+- [Further Reading](#further-reading)
 - [License](#license)
 
 ## Installation
@@ -162,6 +163,12 @@ The renderer simulates a 3D graphics pipeline using only CPU-based calculations,
 - Add support for more advanced lighting techniques (e.g., Phong shading)
 - Implement real-time rendering optimizations
 - Introduce shader-like features for better material handling
+
+## Further Reading
+
+For a deep dive into the development process, pipeline stages, and technical challenges of this project, check out the accompanying blog post:
+
+- [Building a 3D Software Renderer from Scratch](https://your-blog-link.com)
 
 ## License
 
