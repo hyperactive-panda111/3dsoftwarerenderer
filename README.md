@@ -47,13 +47,8 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 4. **Run the renderer**:
    ```bash
-   make run
+   ./renderer
    ```
-
-## Usage
-
-- Place your OBJ files and texture PNGs in the `models` directory
-- Run the application with the path to the OBJ file
 
 ## Camera Controls
 
