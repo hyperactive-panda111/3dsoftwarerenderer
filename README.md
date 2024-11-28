@@ -38,7 +38,12 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
    ```
 
 2. **Install dependencies**:
-   - Ensure you have a C compiler (e.g., GCC)
+
+- **C Compiler**: Ensure you have a C compiler like GCC installed.
+- **Make**: Used to automate the build process. You can install it as follows:
+  - On Ubuntu/Debian: `sudo apt install make`
+  - On macOS: `xcode-select --install`
+  - On Windows: Install [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm) or use a Unix-like environment such as Cygwin or WSL.
 
 3. **Build the project**:
    ```bash
