@@ -2,6 +2,19 @@
 
 A 3D software renderer built from scratch in C, designed to explore the fundamentals of computer graphics. This project implements a complete rendering pipeline, including transformations, camera systems, perspective-correct texture mapping, lighting, and Z-buffering, without relying on a graphics API.
 
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [How It Works](#how-it-works)
+- [Known Issues](#known-issues)
+- [Future Enhancements](#future-enhancements)
+- [Further Reading](#further-reading)
+- [License](#license)
+
 ## Features
 
 - **3D Transformations**: Scale, rotate, and translate objects in 3D space
@@ -17,19 +30,6 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 ![Wireframe Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDlhMTRvOGYydWtiM3o4ZGVsbWJmb3U2NWlpdmljNzJydTB5YThtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eDzhgYbI9QNBqdBWM0/giphy.gif)
 ![Flat Shading Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW14b3V4OWRuYzJ5bHZ2bzBvdXU3bWhyeTB3ZzR0cjlzOGRmZWN1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O2IgnbVemdm7nsvSGi/giphy.gif)
 ![Textured Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJxa2Rtc3o4cWl3dG0zaXhwamJyZ2ViaXZkcnphdGttNG4xd3QyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4cjPaXFR6GZCXMkJih/giphy.gif)
-
-## Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
-- [Known Issues](#known-issues)
-- [Future Enhancements](#future-enhancements)
-- [Further Reading](#further-reading)
-- [License](#license)
 
 ## Installation
 
