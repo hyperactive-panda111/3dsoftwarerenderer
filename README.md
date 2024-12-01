@@ -33,6 +33,7 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 ![Flat Shading Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjdqMWM2NGF2dmN0bTNzZmU5dWYwcWlsaG9qMzZzbmJiN3dpaDZpNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HhhSdDA9dUYijGsrrS/giphy.gif)
 ![Textured Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJxa2Rtc3o4cWl3dG0zaXhwamJyZ2ViaXZkcnphdGttNG4xd3QyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4cjPaXFR6GZCXMkJih/giphy.gif)
 ![Textured Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjBlZ2s4d3I5YjR0emhkNmk3bnU5d24xaTcya3E3Y2Nicjk3anc0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6YA3UVMR0PegQwpfEo/giphy.gif)
+
 ## Installation
 
 1. **Clone the repository**:
