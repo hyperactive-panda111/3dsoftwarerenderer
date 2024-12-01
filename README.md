@@ -14,8 +14,9 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 - **Multiple Mesh Rendering**: Support for scenes with multiple textured objects
 
 ## Demo
-
+![Wireframe Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDlhMTRvOGYydWtiM3o4ZGVsbWJmb3U2NWlpdmljNzJydTB5YThtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eDzhgYbI9QNBqdBWM0/giphy.gif)
 ![Flat Shading Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW14b3V4OWRuYzJ5bHZ2bzBvdXU3bWhyeTB3ZzR0cjlzOGRmZWN1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O2IgnbVemdm7nsvSGi/giphy.gif)
+![Textured Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJxa2Rtc3o4cWl3dG0zaXhwamJyZ2ViaXZkcnphdGttNG4xd3QyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4cjPaXFR6GZCXMkJih/giphy.gif)
 
 ## Table of Contents
 
