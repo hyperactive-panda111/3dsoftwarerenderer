@@ -30,7 +30,7 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 ![Wireframe Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDlhMTRvOGYydWtiM3o4ZGVsbWJmb3U2NWlpdmljNzJydTB5YThtcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eDzhgYbI9QNBqdBWM0/giphy.gif)
 ![Flat Shading Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW14b3V4OWRuYzJ5bHZ2bzBvdXU3bWhyeTB3ZzR0cjlzOGRmZWN1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O2IgnbVemdm7nsvSGi/giphy.gif)
 ![Textured Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJxa2Rtc3o4cWl3dG0zaXhwamJyZ2ViaXZkcnphdGttNG4xd3QyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4cjPaXFR6GZCXMkJih/giphy.gif)
-
+![Textured Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWJxa2Rtc3o4cWl3dG0zaXhwamJyZ2ViaXZkcnphdGttNG4xd3QyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4cjPaXFR6GZCXMkJih/giphy.gif)
 ## Installation
 
 1. **Clone the repository**:
@@ -120,7 +120,7 @@ The renderer allows interactive camera movement and adjustments through keyboard
 │   ├── upng.h
 │   ├── vector.c          # Vector operations
 │   ├── vector.h
-├── assets/              # Screenshots or demo media
+├── assets/              # OBJ files
 ├── Makefile             # Build instructions
 └── README.md            # Project documentation
 
