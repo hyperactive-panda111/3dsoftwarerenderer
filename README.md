@@ -15,7 +15,7 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 ## Demo
 
-![Flat Shading Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW14b3V4OWRuYzJ5bHZ2bzBvdXU3bWhyeTB3ZzR0cjlzOGRmZWN1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O2IgnbVemdm7nsvSGi/giphy.mp4)
+![Flat Shading Mode](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW14b3V4OWRuYzJ5bHZ2bzBvdXU3bWhyeTB3ZzR0cjlzOGRmZWN1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O2IgnbVemdm7nsvSGi/giphy.gif)
 
 ## Table of Contents
 
