@@ -1,6 +1,0 @@
-CompileFlags:
-  Add:
-   - -isystem
-   - C:/msys64/mingw64/include
-   - -isystem
-   - C;/msys64/usr/include
