@@ -60,7 +60,7 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 4. **Run the renderer**:
    ```bash
-   ./renderer
+   make run
    ```
 
 ## Camera Controls
