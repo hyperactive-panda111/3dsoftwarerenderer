@@ -65,16 +65,15 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 - **C Compiler**: MinGW-64 GCC (included with MinGW installation)
   
 - **Make**: Included with MinGW-64 installation
- - **Alternative Platforms**:
-  - On Ubuntu/Debian: 
-    ```bash
-    sudo apt install mingw-w64 make
-    ```
-  - On macOS (using Homebrew): 
-    ```bash
-    brew install mingw-w64 make
-    ```
-
+   - **Alternative Platforms**:
+      - On Ubuntu/Debian: 
+      ```bash
+        sudo apt install mingw-w64 make
+      ```
+    - On macOS (using Homebrew): 
+      ```bash
+      brew install mingw-w64 make
+      ```
 
 2. **Clone the repository**:
    ```bash
