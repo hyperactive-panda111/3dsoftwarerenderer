@@ -62,9 +62,6 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
     - Add the MinGW-64 bin directory to your system PATH
       - Typical path: `C:\Program Files\mingw64\bin`
 
-- **C Compiler**: MinGW-64 GCC (included with MinGW installation)
-- **Make**: Included with MinGW-64 installation
-
 - **Alternative Platforms**:
   - On Ubuntu/Debian: 
     ```bash
@@ -74,6 +71,8 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
     ```bash
     brew install mingw-w64 make
     ```
+- **C Compiler**: MinGW-64 GCC (included with MinGW installation)
+- **Make**: Included with MinGW-64 installation
 
 2. **Clone the repository**:
    ```bash
