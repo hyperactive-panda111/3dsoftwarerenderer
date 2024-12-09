@@ -47,11 +47,39 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
 
 2. **Install dependencies**:
 
-- **C Compiler**: Ensure you have a C compiler like GCC installed.
-- **Make**: Used to automate the build process. You can install it as follows:
-  - On Ubuntu/Debian: `sudo apt install make`
-  - On macOS: `xcode-select --install`
-  - On Windows: Install [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm) or use a Unix-like environment such as Cygwin or WSL.
+## Installation
+
+1. **Install Dependencies**:
+
+- **MinGW-64**: A minimalist GNU compiler collection for Windows
+  - On Windows:
+    - Download from the official MinGW-64 website: [MinGW-64 Download](https://mingw-w64.org/doku.php/download)
+    - Recommended: Use the installer from [SourceForge](https://sourceforge.net/projects/mingw-w64/)
+    - During installation, choose:
+      - Architecture: x86_64 (64-bit)
+      - Threads: posix
+      - Exception: seh
+    - Add the MinGW-64 bin directory to your system PATH
+      - Typical path: `C:\Program Files\mingw64\bin`
+
+- **C Compiler**: MinGW-64 GCC (included with MinGW installation)
+- **Make**: Included with MinGW-64 installation
+
+- **Alternative Platforms**:
+  - On Ubuntu/Debian: 
+    ```bash
+    sudo apt install mingw-w64 make
+    ```
+  - On macOS (using Homebrew): 
+    ```bash
+    brew install mingw-w64 make
+    ```
+
+2. **Clone the repository**:
+   ```bash
+   git clone https://github.com/hyperactive-panda111/3d-software-renderer.git
+   cd 3d-software-renderer
+   ```
 
 3. **Build the project**:
    ```bash
@@ -63,6 +91,15 @@ A 3D software renderer built from scratch in C, designed to explore the fundamen
    make run
    ```
 
+**Troubleshooting**:
+- Ensure all dependencies are correctly installed and added to your system PATH
+- Verify MinGW-64 installation by running `gcc --version` in your command prompt or terminal
+- **C Compiler**: Ensure you have a C compiler like GCC installed.
+- **Make**: Used to automate the build process. You can install it as follows:
+  - On Ubuntu/Debian: `sudo apt install make`
+  - On macOS: `xcode-select --install`
+  - On Windows: Install [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm) or use a Unix-like environment such as Cygwin or WSL.
+    
 ## Camera Controls
 
 The renderer allows interactive camera movement and adjustments through keyboard inputs. Below is a list of supported controls:
@@ -128,7 +165,9 @@ The renderer allows interactive camera movement and adjustments through keyboard
 │   ├── vector.h
 ├── assets/              # OBJ files
 ├── Makefile             # Build instructions
+├── final                # Executable of final project
 └── README.md            # Project documentation
+
 
 ```
 
