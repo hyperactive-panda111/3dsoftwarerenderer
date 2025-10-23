@@ -1,6 +1,6 @@
-# 3D Software Renderer
+# 3D Graphics Engine
 
-A 3D software renderer built from scratch in C, designed to explore the fundamentals of computer graphics. This project implements a complete rendering pipeline, including transformations, camera systems, perspective-correct texture mapping, lighting, and Z-buffering, without relying on a graphics API.
+A fixed-function 3D graphics engine built from scratch in C, designed to explore the fundamentals of computer graphics. This project implements a complete rendering pipeline, including transformations, camera systems, perspective-correct texture mapping, lighting, and Z-buffering, without relying on a graphics API.
 
 ## Table of Contents
 
