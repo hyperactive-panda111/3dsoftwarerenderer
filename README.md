@@ -9,10 +9,8 @@ A fixed-function 3D graphics engine built from scratch in C, designed to explore
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
 - [Known Issues](#known-issues)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ## Features
 
@@ -209,10 +207,6 @@ The renderer simulates a 3D graphics pipeline using only CPU-based calculations,
 - Add support for more advanced lighting techniques (e.g., Phong shading)
 - Implement real-time rendering optimizations
 - Introduce shader-like features for better material handling
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
