@@ -1,7 +1,8 @@
-# Real Time 3D Graphics Engine
+# Real Time Software Based 3D Graphics Engine
 
 A fixed-function 3D graphics engine built from scratch in C, driven by a specific question: **how does classical 3D graphics mathematics actually execute on a CPU?**
 
+<img src="assets/renderer-annotated.png" alt="CPU software renderer — multi-mesh scene with perspective-correct texturing and wireframe overlay" width="850">
 Every stage of the rendering pipeline is implemented by hand — no graphics API, no hardware acceleration. The CPU does all of it: transformation, clipping, rasterization, depth testing, and texture sampling. The project was built three weeks after deciding to stop being fascinated by the problem from a distance and actually solve it.
 
 ---
